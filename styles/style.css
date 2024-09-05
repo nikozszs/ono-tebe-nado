@@ -1,1 +1,130 @@
-/* место для вашего кода */
+.header_menu {
+  display: grid; 
+  grid-template-columns:repeat(3, 1fr);
+  padding: 92px 24px 94px 24px;
+  box-sizing: border-box;
+}
+
+.header_logo {
+  display: block;
+  width: 20px;
+  height: 20px;
+}
+
+.header_logo-image {
+  width: 20px;
+  height: 20px;
+}
+
+.header_links-list-item {
+  display: grid;
+  gap: 13px;
+  list-style: none;
+}
+
+.header__links-list {
+  list-style: circle;
+  text-decoration: underline;
+  display: inline;
+  gap: 67px 21px 44px 26.52px;
+  color: #000000;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.13px;
+  text-align: left;
+}
+
+.header__link_active {
+  text-decoration: none;
+}
+
+.address {
+  white-space: nowrap;
+}
+
+
+
+.cover {
+  font: Raleway;
+  position: relative;
+  background-image: url(../image/cover.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  size: 100px;
+  line-height: 100px;
+  color: #fff;
+  letter-spacing: normal;
+  z-index: 0;
+}
+
+.cover-title {
+  text-transform: uppercase;
+  color:#fff
+  letter-spacing: 0.3em;
+  line-height: 1.22;
+  font-size: 100px;
+}
+
+.no-letter-spacing {
+  letter-spacing: 0em;
+}
+
+.letter-spacing {
+  letter-spacing: 0.3em;
+}
+
+
+.aligned-text {
+display: block;
+letter-spacing: normal;
+z-index: 1;
+}
+
+.aligned-text_center {
+  display: block;
+  letter-spacing: normal;
+  z-index: 1;
+  }
+  
+.aligned-text_right {
+    display: block;
+    letter-spacing: normal;
+    z-index: 1;
+    }
+
+.cover__description {
+  justify-content: end;
+  margin-top: 134px;
+  gap: 77px;
+}
+
+.cover__description-text {
+  font-family: Raleway;
+font-size: 22px;
+font-weight: 400;
+line-height: 28px;
+text-align: left;
+}
+
+.bet-button {
+  display: flex;
+  justify-content: space-between;
+  line-height: 25.83px;
+  font-size: 22px;
+  text-transform: uppercase;
+  padding: 12px 32px 11px 31px; 
+}
+
+.about__text {
+  font-family: Raleway;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.01em;
+text-align: left;
+color: #000000;
+
+
+}
+
