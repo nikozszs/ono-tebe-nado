@@ -189,13 +189,30 @@ color: #000000;
 
 .about_column {}
 
-.about_logo {}
+.about_logo {
+  display: block;
+  justify-self: left;
+  width: 148px;
+  height: 114px;
+  max-height: 100%;
+  object-fit: contain;
+}
 
-.about_logo-image {}
+.about_title {
+  size: 40px;
+  line height: 46.96px;
+}
 
-.about_title {}
+.about_text {
+  color:#000000
+  size: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 24px;
+  
 
-.about_text {}
+}
 
 .footer {
   display: flex;
