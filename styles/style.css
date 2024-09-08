@@ -238,7 +238,7 @@ color: #000000;
 }
 
 .about_text {
-  color:#000000
+  color:#000000;
   size: 20px;
   display: flex;
   flex-direction: column;
