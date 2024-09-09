@@ -1,9 +1,7 @@
 .header {
   display: grid; 
-  grid-template-columns: 1fr min-content 1fr;
-  text-underline-offset: 240px 24px 29px 786px;
+  grid-template-columns: 1fr 1fr 1fr;
   text-decoration: none;
-  padding: 92px 24px 96px 24px;
   box-sizing: border-box;
   justify-self: end;
   width: 1052px;
@@ -12,7 +10,6 @@
 .header_menu {
   display: grid; 
   grid-template-columns: 1fr 1fr 1fr;
-  text-underline-offset: 240px 24px 29px 786px;
   padding: 92px 24px 24px 96px;
   box-sizing: border-box;
   width: 1052px;
@@ -22,8 +19,7 @@
   list-style: circle;
   text-decoration: underline;
   display: grid; 
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 67px 21px 44px 26.52px;
+  grid-column: 1;
   color: #000000;
   font-size: 18px;
   font-weight: 400;
@@ -46,9 +42,11 @@
 
 .header_logo {
   display: grid; 
-  justify-self: center;
+  grid-column: 2;
+  justify-content: space-between;
   width: 148px;
   height: 105px;
+  margin: 92px 474px 96px 478px;
   max-height: 100%;
   object-fit: contain;
   margin-right: 184px;
@@ -62,6 +60,7 @@
 .header_address {
   white-space: nowrap;
   justify-self: end;
+  grid-column: 3;
 }
 
 .cover {
@@ -71,7 +70,6 @@
   background-position: center;
   background-size: cover;
   background-image: url("../images/cover.jpg");
-  size: 100px;
   min-height: 757px;
   letter-spacing: normal;
   z-index: 0;
@@ -94,8 +92,6 @@
   text-transform: uppercase;
   position: relative;
   line-height: 1.22;
-  font-size: 100px;
-  font-weight: 700px;
   text-align: left;
   z-index: 2;
   line-height: 115px;
@@ -168,7 +164,6 @@
 
 .cover__description-text {
   font-size: 22px;
-  font-weight: 400px;
   margin-top: 11px;
   line-height: 28px;
   text-transform: uppercase;
@@ -251,8 +246,7 @@
   background-repeat: no-repeat;
   top: 74px;
   gap: 0px;
-  opacity: 0px;
-  padding: 48px 40px;
+  padding: 48px 42px;
 }
 
 .card_type_book {
@@ -262,7 +256,6 @@
   background-repeat: no-repeat;
   top: 74px;
   gap: 0px;
-  opacity: 0px;
   padding: 48px 40px;
 }
 
@@ -273,7 +266,6 @@
   background-repeat: no-repeat;
   top: 74px;
   gap: 0px;
-  opacity: 0px;
   padding: 48px 40px;
 } 
 
@@ -311,7 +303,7 @@
 }
 
 .about_logo {
-  display: block;
+  display: grid;
   justify-content: center;
   width: 148px;
   height: 114px;
@@ -324,13 +316,11 @@
 }
 
 .about_title {
-  size: 40px;
   line-height: 46.96px;
 }
 
 .about_text {
   color:#000000;
-  size: 20px;
   display: flex;
   flex-direction: column;
   gap: 24px;
@@ -338,7 +328,12 @@
 }
 
 .footer {
-  display: flex;
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr;
+  text-decoration: none;
+  box-sizing: border-box;
+  justify-self: center;
+  width: 1052px;
 }
 
 .footer_address {
@@ -347,8 +342,7 @@
 
 .footer_menu {
   display: grid; 
-  grid-template-columns: 1fr min-content 1fr;
-  text-underline-offset: 240px 24px 29px 786px;    
+  grid-template-columns: 1fr 1fr 1fr;    
   padding: 180px 50px 50px 88px;
   box-sizing: border-box;
   justify-self: end;
@@ -356,23 +350,23 @@
 }
 
 .footer_menu-list {
- 
   gap: 185px;
 }
 
-.footer_menu-list-item {}*/
+.footer_menu-list-item {}
 
 .footer_menu-link {
-list-style: circle;
-text-decoration: underline;
-display: flex;
-gap: 67px 21px 44px 26.52px;
- color: #000000;
-font-size: 18px;
-font-weight: 400;
-line-height: 21.13px;
-text-align: left;
+  list-style: circle;
+  text-decoration: underline;
+  display: flex;
+  margin: 67px 21px 44px 26.52px;
+  color: #000000;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.13px;
+  text-align: left;
 }
+
 
 .footer_menu-link_active {
   text-decoration: none;
@@ -397,7 +391,7 @@ text-align: left;
 }
 
 .footer_social-link {
-  display: block;
+  display: flex;
   width: 48px;
   height: 100%;
   border-radius: 50%;
