@@ -80,7 +80,6 @@
 
 .overlay {
  position: absolute;
- background-image: url(C:\Users\MSI\ono-tebe-nado\ono-tebe-nado\images\cover.jpg); 
  top: 0;
  height: 100%;
  width: 100%;
@@ -298,8 +297,11 @@
 .about {
  display: grid;
  grid-template-columns: 1fr 1fr 1fr;
+ grid-template-rows: 1fr 2fr;
  gap: 25px;
- margin: 146px 24px 180px 24px;
+ padding: 35px 71px 180px;
+ max-width: 1000px;
+ max-height: 600px;
 }
 
 .about_column {
@@ -307,16 +309,24 @@
 }
 
 .about_logo {
- display: grid;
+ display: flex;
  justify-content: center;
- width: 148px;
- height: 114px;
+ border-radius: 50%;
+ width: 240px;
+ height: 240px;
  max-height: 100%;
  object-fit: contain;
+ align-content: center;
+ background-color: #000000;
 }
 
 .about_logo-image {
- justify-content: center;
+ width: 70%;
+ height: auto;
+}
+
+.about__info{
+  grid-column: 2 / 4;
 }
 
 .about_title {
@@ -329,6 +339,19 @@
  flex-direction: column;
  gap: 24px;
  margin-top: 24px;
+}
+
+.about_heading {
+  text-transform: uppercase;
+  font-size: 40px;
+  color:#000000;
+  margin-bottom: 100px;
+  margin-top: 101px;
+}
+
+.about_description {
+  font-size: 20px;
+  font-weight: normal;
 }
 
 .footer {
