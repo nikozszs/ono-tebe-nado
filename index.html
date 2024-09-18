@@ -2,48 +2,45 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Оно тебе надо - аукцион вещей, в которые никто не верил</title>
     <link rel="stylesheet" href="./styles/global.css" />
-    <link rel="stylesheet" href="./fonts/fonts.css"/>
     <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./fonts/fonts.css" />
   </head>
-  <body>
-    <header>
-      <div class="header header_menu">
-        <nav>
-          <ul class="header__links-list">
-            <li class="header__links-list header__link_active">
-              <a href="header_links-list-item">главная</a>
-            </li>
-            <li class="header__links-list">
-              <a href="#0">посмотреть лоты</a>
-            </li>
-            <li class="header__links-list">
-              <a href="#0">об аукционе</a>
-            </li>
-          </ul>
-          <a class="header_logo header_logo-image">
-            <img 
+  <body class="body">
+    <header class="header">
+      <nav class="header__menu">
+        <ul class="header__links-list" >
+          <li class="header_links-list-item header__link_active">
+            <a class="header__links-list">главная</a>
+          </li>
+          <li class="header__links-list-item">
+            <a class="header__links-list" href="#0">посмотреть лоты</a>
+          </li>
+          <li class="header__links-list-item">
+            <a class="header__links-list" href="#0">об аукционе</a>
+          </li>
+        </ul>
+        <a class="header__logo" href="#0" >
+            <img class="header_logo-image"
             src="./images/logo-black.svg" 
             alt="логотип"/> 
-          </a>
-          <div class="header_address">
-            <a href="tel:+99995555555">+9 999 555 5555</a>
-            <br>
-            <a href="http://info@sobaka.ge">info@sobaka.ge</a>
-            <br>
-            наб. Принсенграхт 263- 
-            265, Амстердам"
-          </div>
-        </nav>
+        </a>
+      <div class="header__address">
+          <a class="header__address" 
+          href="tel:+99995555555">+9 999 555 5555<br>
+        </a>
+          <a class="header_address" 
+          href="http://info@sobaka.ge">info@sobaka.ge<br>
+        </a>
+          наб. Принсенграхт 263- <br> 265, Амстердам
       </div>
+     </nav>
     </header>
   <main>
     <section class="cover">
-      <img class="cover overlay"
-      src="./images/cover.jpg">
       <div class="overlay"></div>
       <h1 class="cover_title">
         <span class="aligned-text">О<span class="letter-spacing-extended">НО</span></span>
@@ -56,45 +53,51 @@
       </div>
     </section>
     <section class="lots">
-      <h2>Лоты</h2>
+      <h2 class="lots_heading">
+        Лоты
+      </h2>
         <ul class="lots_card-list">
           <li class="lots_card-list-item">
             <a class="card-link" href="#0">
               <article class="card card_type_film">
-                <div class="overlay">
-                  <h3 class="card-title">Фильм режиссера, который бросил киношколу</h3>
-                  <p class="card_text">Не просто бросил, а ушел с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?</p>
-                <a class="card_type_film"></a>
-                </div>
+                <div class="overlay"></div>
+                <h3 class="card-title">
+                  Фильм режиссера, который бросил киношколу
+                </h3>
+                <p class="card_text">
+                  Не просто бросил, а ушел с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?
+                </p>
               </article>
             </a>
           </li>
           <li class="lots_card-list-item">
-            <div class="overlay"></div>
             <a class="card-link" href="#0">
               <article class="card card_type_book">
-                  <h3 class="card_title">Книга, где описан один скучный день из жизни рекламного агент</h3>
-                  <p class="card-text">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?
-                    <a class="card_type_film"></a>
-                  </p>
-                </div>
+                <div class="overlay"></div>
+                <h3 class="card-title">
+                  Книга, где описан один скучный день из жизни рекламного агент
+                </h3>
+                <p class="card_text">
+                  Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?
+                </p>
               </article>
             </a>
           </li>
           <li class="lots_card-list-item">
             <a class="card-link" href="#0">
               <article class="card card_type_picture">
-                <div class="overlay">
-                  <h3 class="card-title">Картина, которую повторит даже 5-летний сын маминой подруги</h3>
-                  <p class="card_text">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?</p>
-                  <a class="card_type_film">
-                  <a href="ссылка на страницу"
-                  class="lots_look-more-link">Посмотреть больше</a>
-                </div>
+                <div class="overlay"></div>
+                <h3 class="card-title">
+                  Картина, которую повторит даже 5-летний сын маминой подруги
+                </h3>
+                <p class="card_text">
+                  Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?
+                </p>
               </article>
             </a>
           </li>
-        </ul>
+        <a class="lots_look-more-link">посмотреть больше</a>
+      </ul>
     </section>
     <section class="about">
       <div class="about__column">
