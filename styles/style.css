@@ -78,7 +78,8 @@
  background-position: center;
  margin-bottom: 179px;
  min-height: 757px;
- z-index: 0;
+ z-index: 1;
+ position: relative;
 }
 
 .overlay {
@@ -177,11 +178,10 @@
 }
 
 .lots_card-list-item { 
-
- position: relative;
- list-style-type: none;
- min-height: 563px;
- min-width: 334px;  
+  position: relative;
+  list-style-type: none;
+  min-height: 563px;
+  min-width: 334px;
 }
 
 .card-link {
@@ -236,10 +236,7 @@
  font-size: 20px;
  font-weight: 400;
  line-height: 24px;
- letter-spacing: 0.01em;
- text-align: left;
  color:#000000;
-
 }
 
 .lots_look-more-link {
@@ -273,7 +270,7 @@
  width: 240px;
  height: 240px;
  max-height: 100%;
- padding-top: 10px;
+ padding-top: 15px;
  margin-left: 24px;
  object-fit: contain;
  align-content: center;
@@ -290,7 +287,7 @@
  text-transform: uppercase;
  font-size: 40px;
  margin-bottom: 100px;
- margin-top: 72px;
+ margin-top: 95px;
  padding-left: 49px;
  padding-top: 33px;
  color:#000000;
@@ -304,7 +301,7 @@
   font-size: 20px;
   line-height: 24px;
   text-align: left;
-  gap: 25px;
+
 }
 
 /* футер */
