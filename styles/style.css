@@ -1,42 +1,42 @@
 .header {
   display: grid; 
- grid-template-columns: 1fr min-content 1fr;
- text-decoration: none;
- align-items: center;
- padding: 92px 24px 96px 24px;
- justify-self: end;
- font-size: 18px;
- width: 1052px;
- background-color: azure;
+  grid-template-columns: 1fr min-content 1fr;
+  text-decoration: none;
+  align-items: center;
+  padding: 92px 24px 96px 24px;
+  justify-self: end;
+  font-size: 18px;
+  width: 1052px;
+  background-color: azure;
 }
 
 .header__menu {
   display: grid; 
- grid-template-columns: 1fr min-content 1fr;
- width: 1052px;
- margin-left: 5px;
+  grid-template-columns: 1fr min-content 1fr;
+  width: 1052px;
+  margin-left: 5px;
 }
 
 .header__links-list {
   text-decoration: underline;
- display: grid; 
- grid-column: 1fr 1fr 1fr;
- list-style-type: circle;
- color: #000000;
- font-size: 18px;
- font-weight: 400;
- line-height: 21.13px;
- text-align: left;
- justify-self: start;
+  display: grid; 
+  grid-column: 1fr 1fr 1fr;
+  list-style-type: circle;
+  color: #000000;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.13px;
+  text-align: left;
+  justify-self: start;
 }
 
 .header__links-list-item {
   display: grid; 
- grid-template-columns: 1fr 1fr 1fr;
- gap: 13px;
- list-style: none;
- justify-self: start;
- margin-left: 30px;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 13px;
+  list-style: none;
+  justify-self: start;
+  margin-left: 30px;
 }
 
 .header__link_active {
@@ -82,8 +82,8 @@
 .overlay {
  position: absolute;
  inset: 0;
- z-index: 1;
  background-color: rgba(0, 0, 0, 0.6);
+ z-index: 1;
 }
 
 .cover_title {
@@ -274,7 +274,7 @@
  height: auto;
 }
 
-.about__info{
+.about__info {
  grid-column: 2 / 4;
 }
 
@@ -307,11 +307,11 @@
 
 .footer {
   display: grid; 
- grid-template-columns: 1fr 1fr 1fr;
- text-decoration: none;
- box-sizing: border-box;
- justify-self: center;
- width: 1052px;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-decoration: none;
+  box-sizing: border-box;
+  justify-self: center;
+  width: 1052px;
 }
 
 .footer_address {
@@ -319,12 +319,12 @@
 }
 
 .footer_menu {
- display: grid; 
- grid-template-columns: 1fr 1fr 1fr;    
- padding: 180px 50px 50px 88px;
- box-sizing: border-box;
- justify-self: end;
- width: 1052px;
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr;    
+  padding: 180px 50px 50px 88px;
+  box-sizing: border-box;
+  justify-self: end;
+  width: 1052px;
 }
 
 .footer_menu-list {
