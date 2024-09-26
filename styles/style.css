@@ -99,10 +99,10 @@
   letter-spacing: 0.3em;
   font-weight: bold;
   font-size: 100px;
-  line-height: 1.22;
+  line-height: 1.23;
   text-transform: uppercase;
   padding: 58px 50px 0px 50px;
-  margin-bottom: 120px;
+  margin-bottom: 118px;
 }
 
 .aligned-text {
@@ -111,11 +111,13 @@
 
 .aligned-text_center {
   text-align: center;
-  letter-spacing: 200px;
+  padding-left: 286px;
+  letter-spacing: 31px;
 }
 
 .aligned-text_right {
   text-align: right;
+  padding-left: 585px;
 }
 
 .letter-spacing-extended {
@@ -247,7 +249,7 @@
   z-index: 2;
   gap: 50px;
   padding-right: 15px;
-  padding-top: px;
+  padding-top: 1px;
   padding-bottom: 0px;
   color: #fff;
   font-weight: 400;
