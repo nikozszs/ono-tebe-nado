@@ -290,7 +290,6 @@
   margin-left: 24px;
   border-radius: 50%;
   object-fit: contain;
-  align-content: center;
   background-color: #000000;
 }
 
@@ -325,14 +324,14 @@
   flex-direction: row;
   justify-content: space-between;
   width: 1000px;
-  margin: 0 auto 91px;
+  margin: 0 auto 90px;
   font-size: 18px;
   font-weight: 400;
 }
 
 .footer__address {
   display: block;
-  padding: 151px 15px 10px 1px;
+  padding: 152px 15px 10px 1px;
   font-style: normal;
   line-height: 1.5;
   text-underline-offset: 4px;
@@ -341,23 +340,21 @@
 .footer__menu {
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-direction: column;
   padding: 129px 0px 10px 10px;
 }
 
 .footer__menu-list {
   display: flex;
+  text-align: center;
   flex-direction: column;
   text-underline-offset: 1px;
   line-height: 0.02;
-  padding: 10px 9px 12px 60px;
+  padding: 8px 4px 12px 15px;
 }
 
 .footer__menu-list-item {
   display: flex;
-  text-align: center;
-  text-decoration: underline;
   color: #000000;
   font-size: 18px;
   width: 100%;
