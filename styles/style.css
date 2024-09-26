@@ -5,6 +5,7 @@
   align-items: center;
   width: 1100px;
   padding: 92px 0px 52px 0px;
+
   font-size: 18px;
 }
 
@@ -72,9 +73,9 @@
 .cover {
   position: relative;
   z-index: 1;
-  box-sizing: border-box;
   min-height: 757px;
   padding: 105px 0px 40px 0px;
+
   background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -97,31 +98,35 @@
   justify-content: space-between;
   position: relative;
   z-index: 2;
-  color: rgb(255, 255, 255);
+  color: white;
   letter-spacing: 0.3em;
   font-weight: bold;
   font-size: 100px;
-  line-height: 1.23;
+  line-height: 100px;
   text-transform: uppercase;
   padding: 58px 50px 0px 50px;
-  margin-bottom: 118px;
+  margin-bottom: 128px;
 }
 
 .aligned-text {
   text-align: left;
+  display: block;
+  line-height: 115px;
 }
 
 .aligned-text_center {
   text-align: center;
-  /*padding-left: 286px;*/
-  letter-spacing: 31px;
+  display: block;
+  line-height: 140px;
   width: 100.33%;
+  letter-spacing: 31px;
 }
 
 .aligned-text_right {
   text-align: right;
-  width: 133.33%;
-  /*padding-left: 585px;*/
+  display: block;
+  line-height: 100px;
+  width: 133.33%
 }
 
 .letter-spacing-extended {
@@ -145,8 +150,6 @@
   gap: 61px;
   margin-left: 79px;
 }
-
-/*justify-content: space-between;*/
 
 .cover__description-text {
   z-index: 2;
