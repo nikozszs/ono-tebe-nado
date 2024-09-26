@@ -336,14 +336,15 @@
 
 .footer__menu {
   display: flex;
-  align-items: start;
-  padding: 142px 0px 10px 10px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 129px 0px 10px 10px;
 }
 
 .footer__menu-list {
   display: flex;
-  flex-direction: column; 
-  justify-content: center;
+  flex-direction: column;
   text-underline-offset: 1px;
   line-height: 0.02;
   padding: 10px 9px 12px 60px;
@@ -351,8 +352,7 @@
 
 .footer__menu-list-item {
   display: flex;
-  text-align: center;
-  align-items: center;
+  text-align:center;
   text-decoration: underline;
   color: #000000;
   font-size: 18px;
