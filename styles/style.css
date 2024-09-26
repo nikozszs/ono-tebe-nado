@@ -93,6 +93,8 @@
 .cover__title {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
   position: relative;
   z-index: 2;
   color: rgb(255, 255, 255);
@@ -106,18 +108,20 @@
 }
 
 .aligned-text {
-  display: block;
+  text-align: left;
 }
 
 .aligned-text_center {
   text-align: center;
-  padding-left: 286px;
+  /*padding-left: 286px;*/
   letter-spacing: 31px;
+  width: 100.33%;
 }
 
 .aligned-text_right {
   text-align: right;
-  padding-left: 585px;
+  width: 133.33%;
+  /*padding-left: 585px;*/
 }
 
 .letter-spacing-extended {
@@ -289,7 +293,7 @@
   width: 240px;
   height: 240px;
   max-height: 100%;
-  margin-left: 24px;
+  margin-left: 23px;
   border-radius: 50%;
   object-fit: contain;
   background-color: #000000;
@@ -356,7 +360,7 @@
 }
 
 .footer__menu-list-item {
-  display: flex;
+  list-style-type: none;
   color: #000000;
   font-size: 18px;
   width: 100%;
