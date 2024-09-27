@@ -16,7 +16,7 @@
   padding: 0px 24px 0px 24px;
 }
 
-.address__list {
+.header__menu-list {
   display: flex;
   justify-content: flex-start;
   gap: 38px;
@@ -67,6 +67,9 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 22.5px;
+}
+.address__text {
+  line-height: 19.5px;
 }
 
 /* секция 1*/
@@ -243,7 +246,6 @@
 }
 
 .card_type_book {
-  padding-top: 51px;
   background-image: url(../images/card-lot-02.jpg);
 }
 
@@ -268,7 +270,7 @@
 }
 
 .lots__look-more-link {
-  padding: 30px 820px 0px 40px;
+  padding: 30px 0px 0px 40px;
   font-size: 20px;
   line-height: 24px;
   text-decoration: underline;
@@ -380,7 +382,7 @@
   column-gap: 48px;
   gap: 1px;
   width: 48px;
-  padding: 104px 240px 10px 10px;
+  padding: 154px 240px 60px 10px;
 }
 
 .footer__social-icon {
